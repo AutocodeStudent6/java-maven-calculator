@@ -3,12 +3,12 @@ package com.epam;
 public class CalcServiceImpl implements CalcService {
     @Override
     public int add(int a, int b) {
-        return 0;
+        return a + b;
     }
 
     @Override
     public int multiply(int a, int b) {
-        return 0;
+        return a * b;
     }
 
     @Override
@@ -16,11 +16,12 @@ public class CalcServiceImpl implements CalcService {
         int aaa;
         int bbb = 12;
 
-        return 0;
+        return a - b + 1;
     }
 
     @Override
     public int divide(int a, int b) {
-        return 0;
+        if (b == 0) return 0;
+        return a / b;
     }
 }
