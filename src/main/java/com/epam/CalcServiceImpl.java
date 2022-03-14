@@ -13,6 +13,9 @@ public class CalcServiceImpl implements CalcService {
 
     @Override
     public int subtract(int a, int b) {
+        int aaa;
+        int bbb = 12;
+
         return 0;
     }
 

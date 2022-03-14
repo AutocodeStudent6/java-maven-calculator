@@ -22,14 +22,4 @@ class CalcServiceTest {
         Assertions.assertEquals(16, calcService.multiply(2, 8));
     }
 
-    @Test
-    void subtractTest() {
-        Assertions.assertEquals(0, calcService.subtract(2, 2));
-    }
-
-    @Test
-    void divideTest() {
-        Assertions.assertEquals(3, calcService.divide(6, 2));
-        Assertions.assertEquals(0, calcService.divide(5, 0));
-    }
 }
